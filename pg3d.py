@@ -10,3 +10,8 @@ def eeCallBack():
     else:
         print(dir(midi.Output))
         
+select = Tk()
+start = Button(select, text="Start",startCallBack)
+debugger_label(select, text="Debugger")
+debugger = Entry(select)
+debugger
